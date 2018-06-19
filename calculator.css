@@ -1,0 +1,92 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+mybutton {
+    border-radius: 0px;
+    border: 3px solid black;
+    background-color: grey;
+    height: 275px;
+    width: 275px;
+    font-size: 50px; 
+    font-weight: bold;
+}
+
+#calculator {
+      height: 1640px;
+  width: 972px;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfd8d0;
+  border: 2px solid #908b85;
+  border-radius: 20px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+
+#output{   
+    text-align: right;  
+    width: 830px;  
+    height: 350px;  
+    font-size: 155px; 
+    margin-top: 10%;
+    border: 3px solid black;
+    border-radius: 20px;
+   
+}  
+
+
+
+button {
+  border-radius: 15px;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 5px 40px 10px 3px;
+  height: 175px;
+  width: 175px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+  font-size: 50px; 
+           
+
+}
+
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 900px;
+  height: absolute;
+  margin-top: -1150px;
+  margin-left: 65px;
+}
+
+#equalsbutton {
+    width: 400px;
+    background-color: orange;
+}
+
+#func {
+   
+    background-color: orange;
+}
+
+.mybutton:hover {background-color: #3a3a3a}
+
+.mybutton:active {
+  background-color: darkgray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.equals:hover {background-color: #3a3a3a}
+
+.equals:active {
+  background-color: darkgray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+ 
+

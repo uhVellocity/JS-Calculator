@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" sizes="120x120" href="calc.png">
+        <body>
+    
+        
+           
+            <div class='container'>
+            <div id='calculator'>
+               <center> <input id="output" name="outp" type="text" value="" /> </center> 
+                    </div>
+                </div>
+            <!-- The buttons --> 
+<div id="buttons">
+                    <button class='mybutton' value='allClear' onlick="allClear();">AC</button>
+                    <button  class="mybutton" value="AUTO" onclick="doAutoFlip();">Fun</button>
+                    <button class='mybutton' value='mystery1' onclick='sqroot();'>?</button>
+                    <button id='func' class='mybutton' value='/' onclick="divide();">÷</button>
+                    <button class='mybutton' value='7' onclick="seven();">7</button>
+                    <button class='mybutton' value='8' onclick="eight();">8</button>
+                    <button class='mybutton' value='9' onclick="nine();">9</button>
+                    <button id='func' class='mybutton' value='multiply' onclick="multiply();">x</button>
+                    <button class='mybutton' value='4' onclick="four();">4</button>
+                    <button class='mybutton' value='5' onclick="five();">5</button>
+                    <button class='mybutton' value='6' onclick="six();">6</button>
+                    <button id='func' class='mybutton' value='add' onclick="add();">+</button>
+                    <button class='mybutton' value='1' onclick="one();">1</button>
+                    <button class='mybutton' value='2' onclick="two();">2</button>
+                    <button class='mybutton' value='3' onclick="three();">3</button>   
+                    <button id='func' class='mybutton' value='subtract' onclick="subtract();">-</button>
+                    <button class='mybutton' value='.' onclick="decimal();">.</button>
+                    <button class='mybutton' value='0' onclick="zero();">0</button>
+                    <button id='equalsbutton' class='equals' value='=' onclick="equals();">=</button>
+            </div>
+        </body>
+    </head>
+</html>
